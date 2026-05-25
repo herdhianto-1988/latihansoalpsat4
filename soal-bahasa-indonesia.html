@@ -238,7 +238,7 @@
 	  sessionStorage.setItem("rumusNilai", rumus); // ⬅️ simpan rumusnya
 	  sessionStorage.setItem("benar", benar);
 	  sessionStorage.setItem("salah", salah);
-	  sessionStorage.setItem("mapel", "Bahasa Inggris");
+	  sessionStorage.setItem("mapel", "Bahasa Indonesia");
 
 	  // Kirim ke Apps Script
 	  fetch(scriptURL, {
@@ -248,7 +248,7 @@
 		body: new URLSearchParams({
 		  nama: nama,
 		  nisn: nisn,
-		  mapel: 'Bahasa Inggris',
+		  mapel: 'Bahasa Indonesia',
 		  benar: benar,
 		  salah: salah,
 		  nilai: nilai
